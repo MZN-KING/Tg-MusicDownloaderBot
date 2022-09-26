@@ -64,7 +64,7 @@ class Chat:
                     '🤖 Bot Commands:\n'
                     '• /music *song name* or\n'
                     '• /music *musician name - song name*\n\n'
-                    '_Join Our Channel : @mzneditez_',
+                    '_Join Our Channel : @mznbots_',
             
             'spotify_input_error':"‼️ *Oops! The bot doesn't support Spotify links!*\n"
                     'Try: "*/music* _song name_"\n'
@@ -116,7 +116,7 @@ class Chat:
             try:
                 self.send_audio(file_name)
                 self.delete_message(downloading_message)
-                self.send_message('✅ Successfully Uploaded!')
+                self.send_message('**⚔️ Powered By @mznbots 2022**')
                 print ("\nSucess!\n")
             except:
                 print("\nError")
